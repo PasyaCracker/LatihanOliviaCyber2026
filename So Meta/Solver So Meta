@@ -1,0 +1,12 @@
+- So meta
+- Forensics
+- 150 points
+
+*Cara untuk menemukan Flagnya*
+1. Download file gambar dari tantangannya
+2. buka https://exif.tools/
+3. upload file gambarnya ke exif.tools untuk mengekstrak metadata
+4. scroll kebawah hingga ke bagian IHDR / PNG
+5. Lihat value di bagian Artist itulah flagnya
+
+FLAG: picoCTF{s0_m3ta_bc056477}
