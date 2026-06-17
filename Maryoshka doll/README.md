@@ -12,7 +12,7 @@ Langkah penyelesaian
 Menurut petunjuk yang diberikan yakni file yang tersembunyi di dalam file…. maka ini merupakan tantangan yang berkaitan dengan steganografi.
 Untuk itu pertama tama saya mencoba menggunakan tools binwalk online untuk menganalisa file tersembunyi apa yang ada di dalam gambar
 
-![binwalk online](bwo.png)
+
 File tersembunyi ditemukan yang berupa file .zip, namun karena keterbatasan tools binwalk online jadi tidak bisa secara langsung melihat isi file zipnya, bisa untuk ekstrak namun tidak bisa melihat isi filenya… jadi saya langsung mencoba untuk menggunakan binwalk secara langsung via wsl dengan command: binwalk + direktori file dolls.jpg yang ada di windows.(binwalk /mnt/c/users/ASUS/Downloads/dolls.jpg
 
 Setelah menggunakan binwalk ditemukan file zip yang tersembunyi dalam gambar dolls.jpg: base_images/2_c.jpg, ini sesuai petunjuk yang dimana terdapat file tersembunyi di dalam gambar ini, kemudian saya menggunakan command binwalk kembali dengan masuk terlebih dahulu kedalam direktori dolls.jpg menggunakan command: 
